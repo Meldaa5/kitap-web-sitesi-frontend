@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  body{
+    height: 200vh;
+    background-color: cornflowerblue;
+}
+  
+  .home,
+  .services,
+  .product,
+  .contact-us,
+  .sign-up,
+  .marketing,
+  .okuduklarım,
+  .okuyacaklarım,
+  .logOut,
+  .support,
+  .favorites,
+  .consulting {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    width: 100%;
+  }
+ 
+  
+  .home {
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    object-fit: cover; 
+    position: relative;
+    margin-top: 70px; 
+    
+  }
+  .hom{
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    object-fit: cover; 
+    position: relative;
+    margin-top: 70px; 
+    z-index: -10000;
+    width: 100%;
+  }
+  
+
+  
+ /* .services {
+    background-image: url('./images/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .products {
+    background-image: url('./images/img-3.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .contact-us {
+    background-image: url('./images/img-4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .sign-up {
+    background-image: url('./images/img-7.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .marketing {
+    background-image: url('./images/img-6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .consulting {
+    background-image: url('./images/img-5.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }*/
